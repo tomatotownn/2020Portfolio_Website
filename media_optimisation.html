@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Media Optimisation</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="box" style="margin-left: 0em; margin-right: 0em; padding-top: 1em">
+    <h1 style="">Media Optimisation</h1>
+    <!--Navbar-->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="social_and_ethical.html">Social and Ethical</a>
+        <div class="dropdown">
+            <button class="dropbtn">Media
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a style="background-color:#187BCD" href="media_optimisation.html">Media Optimisation</a>
+                <a href="about_animation.html">About Animation</a>
+                <a href="multimedia_design.html">Multimedia design</a>
+            </div>
+        </div>
+        <a href="documentation.html">Documentation</a> 
+    </div>
+</div>
+    <!--Background Bars-->
+<div class="box" style="margin-bottom: 5em">
+    
+    <!--File types and compression-->
+    <div class="row">
+  <div class="column" style="height: auto">
+      <h2>File types and Compression</h2>
+      <p style="margin-top: 0.4em; padding-bottom: 1em; padding-top: 0.25em">Images, videos and animations are very useful for multimedia projects and are visually stimulating, though one problem with the implementation of them on websites is the high page load times if they have a large file size. Because some users accessing the website might have slow download speeds, media optimisations are required to allow them to use the website smoothly. <br><br> An example of good media implementation is below where I have edited a video together at a high resolution. This however does not impact the page load time of the website as it only needs to load the 560 x 315 resolution thumbnail image. The video only begins to download when you click play, meaning if the user doesn't want to watch the video, they are not subject to long load times. On top of that, it is an embedded Youtube Video which optimises the resolution of the video played based on the internet speed of the user, meaning if their connection is slow they only have to buffer a small file size at a time, but users with high internet speed will be able to enjoy the video at high resolution and fps.</p>
+  </div>
+</div>
+
+    <!--Eagle Video-->
+    <div style="text-align: center; margin-top: 2em">      
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JEvKkVY9Eow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+    <!--Raster vs vector-->
+    <div style="background-color: #D0EFFF;">
+    <h2 style="padding-top: 1.5em;">Raster vs Vector</h2>
+    <p style="margin-top: 1em; padding: 0.25em 1em">There are two different types of digital graphic file types, Raster and Vector. Vector graphics are made up of paths and lines based on the mathematical equations. Raster is made up of pixels arranged in a grid pattern put together to create an image.<br><br>
+    <strong>Vector</strong>
+    </p>
+    <ul style="margin-top: 0.25em; margin-bottom: -1em; padding-bottom: 0.75em; line-height: 35px" class="standard">
+	   <li>The advantages of vector is that it can be scaled up or down without generalisation, making it useful for accurate geographical information to be scaled and and down.</li>
+	   <li>Although the disadvantages are that each point needs to be detailed explicitly, meaning it can take up large amounts of storage depending on how complicated the image is, it can also require a large amount of processing power to compile the mathematical formulas.</li>
+    </ul>
+    <p style="margin-top: 1em; padding: 0.25em 1em"><strong>Raster</strong></p>
+    <ul style="margin-top: 0.25em; margin-bottom: 1.25em; padding-bottom: 0.75em; line-height: 35px" class="standard">
+	   <li>The advantages of raster are that its file size is predictable and can be calculated based on the bit depth and resolution, it can also be easily manipulated by exterior software programs, and the grid layout makes it very compatible with limited raster based displays.</li>
+	   <li>The disadvantages are the inability to accurately represent lines when scaled down, and conversion from raster to vector can take up large processing power and time.</li>
+    </ul>
+</div>
+
+    <img style="margin-left: auto;margin-right: auto; display: block; max-width: 60%" src="images/vector-raster.jpg"> 
+    <p style="text-align: center; margin-top: 0.5em"><a href="https://www.seekacreative.co.nz/resources/vector-vs-raster-files">Seeka Creative - Vector vs Raster Files</a></p>    
+    
+    <!--File Types-->
+    <div style="background-color: #D0EFFF;">
+    <h2 style="padding-top: 1.5em;">File Types</h2>
+    <p style="margin-top: 1em; padding: 0.25em 1em; padding-bottom: 0.5em">Different files types are used to compress media, for raster media you have the selection of a <b>.jpg</b>, <b>.gif</b>, <b>.png</b>, <b>.tiff</b> and <b>.bmp</b>. And for vector media there is <b>.svg</b>, <b>.pdf</b>, <b>.cdr</b> and <b>.eps.</b> <br><br>For these different file types, they all compress in different ways. For example, <b>.png</b> compresses in a lossless format of <span style="color: red">R</span><span style="color: green">G</span><span style="color: blue">B</span><span style="color: gray">A</span>, allowing for full RGB colours and transparency. While <b>.jpg</b> is just <span style="color: red">R</span><span style="color: green">G</span><span style="color: blue">B</span> and compressed to a lossy format and uses an algorithm that discards some of the image information in order to reduce the file size. A .bmp file is fully uncompressed raster information as it codes each pixel one by one, amounting to very large file sizes as the resolution increases.
+</p>
+</div> 
+        
+    <div style="padding: 0em"></div>
+    <footer>Copyright 2020, made with Tate.</footer>
+</div>
+</body>
+</html>
